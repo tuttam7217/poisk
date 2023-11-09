@@ -1,0 +1,107 @@
+385 
+1 задание
+<ul id="elem">
+        <li style="color: red;">text</li>
+        <li>text</li>
+        <li>text</li>
+        <li>text</li>
+        <li>text</li>
+        </ul>
+    </ul>
+
+2 задание
+
+<ul id="elem">
+        <li >text</li>
+        <li>text</li>
+        <li>text</li>
+        <li>text</li>
+        <li style="color: red;">text</li>
+        </ul>
+    </ul>
+
+3 задание
+
+  <ul id="elem">
+        <li >text!</li>
+        <li>text!</li>
+        <li>text!</li>
+        <li>text!</li>
+        <li>text!</li>
+        </ul>
+
+384
+
+1 задание
+
+
+<div style=“border: 1px solid red;”>
+<ul>
+<li>text</li>
+<li>text</li>
+<li id=“elem”>text</li>
+<li>text</li>
+<li>text</li>
+</ul>
+</div>
+
+
+385
+1 задание 
+<div><p><span id=“elem”></span></p></div>
+
+2 задание
+<div class=“www”><p class=“www”><span id=“elem”></span></p></div>
+
+386
+1 задание
+	<li>text!</li>
+        <li>text</li>
+        <li id="elem">text</li>
+        <li>text</li>
+        <li>text</li>
+        </ul>
+ 
+
+2 задание
+
+<ul>
+        <li>text</li>
+        <li>text</li>
+        <li id="elem">text!</li>
+        <li>text</li>
+        <li>text</li>
+<ul>
+
+3 задание
+
+
+const elem = document.getElementById('elem');
+const nextElem = elem.nextElementSibling;
+nextElem.textContent += '!';
+
+
+387
+ 
+-
+
+
+388
+
+const lis = document.querySelectorAll(‘li’);
+
+lis.forEach((li) => {
+
+li.style.color = ‘red’;
+
+});
+
+
+
+или
+
+        <li style="color: red;">text</li>
+        <li style="color: red;">text</li>
+        <li style="color: red;">text</li>
+        <li style="color: red;">text</li>
+        <li style="color: red;">text</li>
